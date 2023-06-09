@@ -1,0 +1,40 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.container {
+  background-color: #0f172a;
+  color: #f8fafc;
+  height: 100vh;
+  background-size: cover;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+ 
+.img1{
+    height: 180px;
+    width:180px;
+}
+.img2{
+    height: 180px;
+    width:180px;
+}
+h1{
+    margin-bottom:20px;
+    font-size:25px
+}
+@media(min-width:768px){
+    h1{
+        font-size: 35px;
+    }
+    .img1{
+    height: 250px;
+    width:250px;
+}
+.img2{
+    height: 250px;
+    width:250px;
+}
+}
